@@ -1,1 +1,12 @@
-# typescript
+# Severed Api - typescript
+Instant Api, generated from a json schema, and or custom defined handlers.
+
+## Configuration
+All configuration is done in the `config.sev-api.json` file.
+
+To verify the configuration, run `sev-api verify`.
+
+
+## Types
+
+string id number int float boolean faker airport airline airplane recordLocator seat aircraftType flightNumber dog cat snake bear lion cetacean horse bird cow fish crocodilia insect rabbit rodent type human space cssSupportedFunction cssSupportedSpace rgb cmyk hsl hwb lab lch colorByCSSColorSpace department productName price productAdjective productMaterial product productDescription isbn suffixes name companySuffix catchPhrase bs buzzPhrase catchPhraseAdjective catchPhraseDescriptor catchPhraseNoun bsAdjective buzzAdjective bsBuzz buzzVerb bsNoun buzzNoun month weekday anytime past future between betweens recent soon birthdate account accountNumber accountName routingNumber mask maskedNumber amount transactionType currency currencyCode currencyName currencySymbol bitcoinAddress litecoinAddress creditCardNumber creditCardCVV creditCardIssuer pin ethereumAddress iban bic transactionDescription branch commitEntry commitMessage commitDate commitSha shortSha abbreviation adjective noun verb ingverb phrase fake slugify replaceSymbolWithNumber replaceSymbols replaceCreditCardSymbols regexpStyleStringParse fromRegExp shuffle uniqueArray mustache maybe objectKey objectValue objectEntry arrayElement weightedArrayElement arrayElements enumValue rangeToNumber unique multiple uniqueStore avatar avatarGitHub avatarLegacy url urlLoremFlickr urlPicsumPhotos urlPlaceholder dataUri image imageUrl abstract animals business cats city food nightlife fashion people nature sports technics transport unsplash lorempicsum placeholder email exampleEmail userName displayName protocol httpMethod httpStatusCode domainName domainSuffix domainWord ip ipv4 ipv6 port userAgent color mac password emoji zipCode zipCodeByState cityName buildingNumber street streetName streetAddress secondaryAddress county country countryCode state stateAbbr latitude longitude direction cardinalDirection ordinalDirection nearbyGPSCoordinate timeZone word words sentence slug sentences paragraph paragraphs text lines genre songName int float binary octal hex bigInt firstName lastName middleName fullName gender sex sexType bio prefix suffix jobTitle jobDescriptor jobArea jobType zodiacSign number imei chemicalElement unit fromCharacters alpha alphanumeric hexadecimal numeric sample uuid nanoid symbol fileName commonFileName mimeType commonFileType commonFileExt fileType fileExt directoryPath filePath semver networkInterface cron vehicle manufacturer model fuel vin vrm bicycle adverb conjunction interjection preposition

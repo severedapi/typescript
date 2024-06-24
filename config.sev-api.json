@@ -1,0 +1,85 @@
+{
+    "project_name": "Test Server",
+    "username": "kineticliberti",
+    "project_root_url": "/kinetic-test",
+    "custom_domain": false,
+    "models": [
+        {
+            "name": "User",
+            "fields": {
+                "id": "id",
+                "name": "fullName",
+                "email": "email",
+                "password": "password",
+                "author": "User"
+            }
+        }
+    ],
+    "endpoints": [
+        {
+            "id": "44904f20-2a88-4599-af2c-be8f8523b385",
+            "path": "/",
+            "responses": {
+                "GET": {
+                    "status": 200,
+                    "content-type": "application/json",
+                    "body": {
+                        "message": "Hello World",
+                        "status": "OK"
+                    }
+                },
+                "POST": {
+                    "status": 201,
+                    "content-type": "application/json",
+                    "body": {
+                        "message": "Hello World",
+                        "status": "OK"
+                    }
+                },
+                "PUT": {
+                    "status": 200,
+                    "content-type": "application/json",
+                    "body": {
+                        "message": "Hello World",
+                        "status": "OK"
+                    }
+                },
+                "DEL": {
+                    "status": 200,
+                    "content-type": "application/json",
+                    "body": {
+                        "message": "Hello World",
+                        "status": "OK"
+                    }
+                }
+            }
+        },
+        {
+            "id": "44904f20-2a88-4599-af2c-be8f8523b386",
+            "path": "/users",
+            "responses": {
+                "GET": {
+                    "status": 200,
+                    "content-type": "application/json",
+                    "model": "User",
+                    "count": 10
+                }
+            }
+        },
+        {
+            "id": "44904f20-2a88-4599-af2c-be8f8523b386",
+            "path": "/users/:id",
+            "responses": {
+                "GET": {
+                    "cache": 6000,
+                    "status": 200,
+                    "content-type": "application/json",
+                    "model": "User",
+                    "forwardProperties": [
+                        "id"
+                    ]
+                }
+            }
+        }
+    ]
+}

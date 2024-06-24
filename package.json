@@ -1,0 +1,33 @@
+{
+  "name": "@severed-api/typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "nodemon lib/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@commander-js/extra-typings": "^12.1.0",
+    "commander": "^12.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2",
+    "@types/node": "^20.14.8",
+    "@faker-js/faker": "^8.4.1",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.4"
+  }
+}
